@@ -2,6 +2,8 @@
 
 # 🚀 Cloudflare DDNS
 
+[![Create and publish a Docker image](https://github.com/StevenKrahforst/cloudflare-ddns/actions/workflows/release.yml/badge.svg?event=release)](https://github.com/StevenKrahforst/cloudflare-ddns/actions/workflows/release.yml)
+
 Access your home network remotely via a custom domain name without a static IP!
 
 
