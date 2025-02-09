@@ -1,8 +1,8 @@
 name: Create and publish a Docker image
 
 on:
-  push:
-    branches: ['release']
+  release:
+    types: [published]
 
 env:
   REGISTRY: ghcr.io
@@ -44,3 +44,4 @@ jobs:
           subject-name: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME}}
           subject-digest: ${{ steps.push.outputs.digest }}
           push-to-registry: true
+      
